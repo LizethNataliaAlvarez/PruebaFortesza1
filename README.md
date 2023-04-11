@@ -26,9 +26,14 @@ Para realizar la ejecución por medio del proyecto se ejecuta el archivo "Runner
 
 # Comando para generar los reportes de la prueba Automatizada
 
-gradle clean test aggregate - Ejecuta todas las pruebas de automatización y genera un informe de resultados en formato HTML.
-gradle clean test aggregate -Dtags="login" - Ejecuta solo las pruebas de automatización que tienen la etiqueta "login" y genera un informe de resultados en formato HTML.
-gradle clean test aggregate -Dheadless.mode=true - Ejecuta todas las pruebas de automatización en modo headless y genera un informe de resultados en formato HTML.
+# gradle clean test aggregate - 
+Ejecuta todas las pruebas de automatización y genera un informe de resultados en formato HTML.
+
+# gradle clean test aggregate -Dtags="login" - 
+Ejecuta solo las pruebas de automatización que tienen la etiqueta "login" y genera un informe de resultados en formato HTML.
+
+gradle clean test aggregate -Dheadless.mode=true - 
+Ejecuta todas las pruebas de automatización en modo headless y genera un informe de resultados en formato HTML.
 
 # Información de Contacto
 Si tienes alguna pregunta o problema con este proyecto de automatización, puedes ponerse en contacto conmigo en mi dirección de correo electrónico: lizethnaq13@gmail.com.

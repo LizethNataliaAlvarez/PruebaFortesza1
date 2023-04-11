@@ -32,7 +32,7 @@ Ejecuta todas las pruebas de automatización y genera un informe de resultados e
 # gradle clean test aggregate -Dtags="login" - 
 Ejecuta solo las pruebas de automatización que tienen la etiqueta "login" y genera un informe de resultados en formato HTML.
 
-gradle clean test aggregate -Dheadless.mode=true - 
+# gradle clean test aggregate -Dheadless.mode=true - 
 Ejecuta todas las pruebas de automatización en modo headless y genera un informe de resultados en formato HTML.
 
 # Información de Contacto
